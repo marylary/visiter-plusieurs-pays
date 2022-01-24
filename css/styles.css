@@ -1,0 +1,155 @@
+body{
+    background-color: #cdcdc9;
+    margin: 30px 0 0 0;
+    color: rgb(243, 210, 20);
+}
+
+header{
+    background:  url(../images/header-section.jpg) 100% fixed;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+}
+
+h1.titre{
+    font-size: 90px;
+    text-transform: uppercase; 
+    margin-top: 150px;
+}
+
+h3.slogan{
+    font-size: 30px;
+    font-style: italic;
+}
+ 
+
+/*Destinations*/
+
+section#destinations{
+    margin: 0px 20% 0 20%;
+}
+
+section#destinations h2{
+   color: #47453f;
+   padding-top: 40px;
+
+   
+  
+}
+
+div.desti-item{
+    color: rgb(51, 26, 65);
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    flex: 0 1 29%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+div.destination-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+ 
+}
+
+div.desti-item:hover{
+    transform: scale(1.20);
+   
+}
+
+.barcelone { background: url(../images/barcelone.jpg); }
+.dubai { background: url(../images/dubai.jpg); }
+.londres { background: url(../images/londres.jpg); }
+.paris { background: url(../images/paris.jpg); }
+.philippines { background: url(../images/philippines.jpg); }
+.tunis { background: url(../images/tunis.jpg); }
+
+
+
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+
+}
+
+span.nom{
+    position: relative;
+    color: rgb(51, 26, 65);
+    background-color: #cdcdc9;
+    top: 20px;
+    float: right;
+    padding: 8px;
+    font-size: 20px;
+
+}
+
+span.prix{
+    position: relative;
+    color: #ffffff;
+    background-color: #ff700f;
+    padding: 12px; 
+    font-size: 20px;
+    top: 230px;
+
+}
+
+/*Formulaire de Recherche*/
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.button-submit input{
+    background-color: rgb(31, 26, 20);
+    border: none;
+    font-size: 20px;
+    color: #cdcdc9;
+    margin: 15px;
+}
+.button-submit{
+    text-align: center;
+}
+div.grp{
+    background-color: #ff700f;
+    padding: 10px;
+}
+
+.form-group input, select, option{
+    border: none;
+    padding: 5px;
+    background-color: bisque;
+   margin-top:  15px;
+}
+
+.form-group label{
+    margin: 5px;
+    padding: 10px;
+}
+
+.seach-form{
+    transform: translateY(50px);
+}
+
+/* Pied de ma page*/
+
+p.pied{
+    color: #373737;
+    text-align: center;
+    padding: 15px£££;
+}
